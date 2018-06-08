@@ -10,7 +10,7 @@ A CRUD Todo List called 'Mis Pendientes'
 
 Icon App Screenshot
 
-<img src="https://user-images.githubusercontent.com/11413770/41135339-c3ae0160-6a96-11e8-85fa-cecd5d18cc73.png" width="250" height="350">
+<img src="https://user-images.githubusercontent.com/11413770/41135339-c3ae0160-6a96-11e8-85fa-cecd5d18cc73.png" width="250" height="450">
 
 Splash Screenshot
 
