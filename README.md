@@ -19,3 +19,7 @@ Splash Screenshot
 Todo List Screenshot
 
 <img src="https://user-images.githubusercontent.com/11413770/41160456-6b156b6a-6af5-11e8-8e12-192a9eb041e3.png" width="250" height="450">
+
+Todo Flow
+
+<img src="https://user-images.githubusercontent.com/11413770/41167471-980eb64a-6b08-11e8-908d-5a31e0ba07ff.gif" width="250" height="450">
