@@ -9,11 +9,13 @@ XCode Version : 9.4
 A CRUD Todo List called 'Mis Pendientes'
 
 Icon App Screenshot
-![todolist](https://user-images.githubusercontent.com/11413770/41135339-c3ae0160-6a96-11e8-85fa-cecd5d18cc73.png=100x250)
+
+<img src="https://user-images.githubusercontent.com/11413770/41135339-c3ae0160-6a96-11e8-85fa-cecd5d18cc73.png" width="100" height="250">
 
 Splash Screenshot
 
 ![splash](https://user-images.githubusercontent.com/11413770/41160455-6afdc884-6af5-11e8-8c50-9dbb27568991.png)
 
 Todo List Screenshot
+
 ![todolist](https://user-images.githubusercontent.com/11413770/41160456-6b156b6a-6af5-11e8-8e12-192a9eb041e3.png)
