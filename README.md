@@ -14,8 +14,8 @@ Icon App Screenshot
 
 Splash Screenshot
 
-![splash](https://user-images.githubusercontent.com/11413770/41160455-6afdc884-6af5-11e8-8c50-9dbb27568991.png)
+<img src="https://user-images.githubusercontent.com/11413770/41160455-6afdc884-6af5-11e8-8c50-9dbb27568991.png" width="250" height="450">
 
 Todo List Screenshot
 
-![todolist](https://user-images.githubusercontent.com/11413770/41160456-6b156b6a-6af5-11e8-8e12-192a9eb041e3.png)
+<img src="https://user-images.githubusercontent.com/11413770/41160456-6b156b6a-6af5-11e8-8e12-192a9eb041e3.png" width="250" height="450">
