@@ -40,6 +40,7 @@ https://realm.io/docs/swift/latest/
 https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/ImplementEditAndDeleteBehavior.html
 
 **Project followup**
+
 https://clean-swift.com/refactoring-table-view-data-source-and-delegate-methods/
 
 https://www.raywenderlich.com/138547/getting-started-with-rxswift-and-rxcocoa
