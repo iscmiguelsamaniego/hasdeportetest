@@ -80,6 +80,53 @@ import RealmSwift
         return true
     }
     
+    @objc func modify(paramItem: TodoItemR) {
+        let alertController = UIAlertController(title: "Modificar Pendiente", message: "Ingrese datos :", preferredStyle: .alert)
+        
+        var alertTextField: UITextField!
+        alertController.addTextField { textField in
+            alertTextField = textField
+            textField.placeholder = "Nombre de la tarea"
+        }
+        
+        alertController.addAction(UIAlertAction(title: "Modificar", style: .default) { _ in
+            guard let taskBody = alertTextField.text , !taskBody.isEmpty else { return }
+            self.updateTask(itemId: paramItem.itemId, bodyTask: taskBody)
+        })
+        present(alertController, animated: true, completion: nil)
+    }
+    
+    func updateTask(itemId: String, bodyTask: String){
+        if let itemToUpdate = RealmManager.find(object: TodoItemR.self, id: itemId){
+            
+            let realm = try! Realm()
+            try! realm.write {
+                itemToUpdate.body = bodyTask
+                itemToUpdate.isDone = false
+                itemToUpdate.timestamp = Date()
+                realm.add(itemToUpdate)
+                self.tableView.reloadData()
+            }
+        }else{
+            print("Error al actualizar datos")
+        }
+    }
+    
+    override func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let modifyAction = UIContextualAction(style: .normal, title:  "Modificar", handler: { (ac:UIContextualAction, view:UIView, success:(Bool) -> Void) in
+            
+            DispatchQueue.main.async {
+                let item = self.items[indexPath.row]
+                self.modify(paramItem: item)
+            }
+            
+            success(true)
+        })
+        //closeAction.image = UIImage(named: "tick")
+        modifyAction.backgroundColor = .blue
+        return UISwipeActionsConfiguration(actions: [modifyAction])
+    }
+    
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         
         if editingStyle == .delete {
