@@ -1,5 +1,5 @@
 # Todo List
-**Mobile app for test purposes
+**Mobile app for test purposes**
 
 Languaje : Swift 4
 
@@ -11,7 +11,7 @@ XCode Version : 9.4
 
 Libraries : Realm 3.0 *(Via cocoa pods)
 
-**A CRUD Todo List called 'Mis Pendientes'
+**A CRUD Todo List called 'Mis Pendientes'**
 
 Todo Flow
 
@@ -33,16 +33,18 @@ Todo List Screenshot
 
 <img src="https://user-images.githubusercontent.com/11413770/41160456-6b156b6a-6af5-11e8-8e12-192a9eb041e3.png" width="250" height="450">
 
-**Links : 
+**Links : **
 https://realm.io/docs/swift/latest/
 
 https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/ImplementEditAndDeleteBehavior.html
 
-**Project followup
+**Project followup**
 https://clean-swift.com/refactoring-table-view-data-source-and-delegate-methods/
 
 https://www.raywenderlich.com/138547/getting-started-with-rxswift-and-rxcocoa
 
-**Thanks to:
+https://www.uplabs.com/android
+
+**Thanks to:**
 https://dflabs.io/
 
